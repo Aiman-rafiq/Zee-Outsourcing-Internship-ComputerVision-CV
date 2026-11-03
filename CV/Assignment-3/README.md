@@ -126,11 +126,6 @@ The experiments demonstrated that:
 - Increasing the confidence threshold reduced the number of accepted detections and increased average confidence.
 - Darkening, blurring, and adding noise changed the model's detection behavior.
 - Higher confidence and higher detection counts do not necessarily mean higher detection accuracy.
-
-**Note:** These experiments measure detection counts and confidence scores. Precision, recall, and mAP were not calculated because ground-truth annotations were not available.
+.
 
 ---
-
-**Assignment:** Computer Vision – Week 3  
-**Topic:** Evaluating the Model  
-**Repository:** Zee-Outsourcing-ML-Internship
