@@ -70,4 +70,67 @@ Tested YOLO11n on four video conditions:
 
 ### 4. Visualizations
 
-Matplotlib
+Matplotlib was used to generate four charts:
+
+- Confidence Threshold vs Average Confidence
+- Confidence Threshold vs Person Detections
+- Video Conditions vs Person Detections
+- Video Conditions vs Average Confidence
+
+The generated PNG charts are included in this repository.
+
+### 5. Technologies Used
+
+- Python
+- Ultralytics YOLO11
+- OpenCV
+- NumPy
+- Pandas
+- Matplotlib
+
+### 6. Installation
+
+Install the required dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+The YOLO model weights are downloaded automatically by Ultralytics when the corresponding scripts are executed, provided an internet connection is available.
+
+### 7. Running the Experiments
+
+Run the Python scripts from the Assignment-3 project directory:
+
+```bash
+python main.py
+python compare_models.py
+python confidence_experiment.py
+python make_video_harder.py
+python evaluate_video_conditions.py
+python plot_results.py
+python plot_conditions.py
+```
+
+Place the original video at:
+
+```text
+videos/input.mp4
+```
+
+### 8. Conclusion
+
+The experiments demonstrated that:
+
+- YOLO11x generated more person detections and higher average confidence than YOLO11n on the selected video, but took considerably longer.
+- Increasing the confidence threshold reduced the number of accepted detections and increased average confidence.
+- Darkening, blurring, and adding noise changed the model's detection behavior.
+- Higher confidence and higher detection counts do not necessarily mean higher detection accuracy.
+
+**Note:** These experiments measure detection counts and confidence scores. Precision, recall, and mAP were not calculated because ground-truth annotations were not available.
+
+---
+
+**Assignment:** Computer Vision – Week 3  
+**Topic:** Evaluating the Model  
+**Repository:** Zee-Outsourcing-ML-Internship
