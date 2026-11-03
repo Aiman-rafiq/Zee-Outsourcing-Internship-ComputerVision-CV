@@ -1,0 +1,5 @@
+threshold,total_detections,average_confidence
+0.2,2365,0.582
+0.4,1769,0.683
+0.6,1308,0.74
+0.8,305,0.837

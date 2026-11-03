@@ -1,0 +1,5 @@
+condition,frames,person_detections,average_confidence,processing_time
+Original,256,2122,0.623,36.5
+Dark,256,2171,0.599,29.92
+Blur,256,2150,0.61,29.52
+Noise,256,2287,0.583,31.3
