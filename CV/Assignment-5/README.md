@@ -158,4 +158,4 @@ python src/zone_alert.py
 
 This project demonstrates how object detection and multi-object tracking can be used to convert pedestrian movement into meaningful events.
 
-It implements pedestrian detection, tracking, entry/
+It implements pedestrian detection, tracking, entry/exit counting, and restricted zone monitoring using computer vision techniques.
