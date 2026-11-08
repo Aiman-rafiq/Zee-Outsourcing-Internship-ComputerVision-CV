@@ -1,0 +1,13 @@
+
+# Python virtual environment
+.venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Downloaded YOLO model weights
+yolo11n.pt
+
+# Large generated tracking video
+outputs/predictions/tracking_output.avi
