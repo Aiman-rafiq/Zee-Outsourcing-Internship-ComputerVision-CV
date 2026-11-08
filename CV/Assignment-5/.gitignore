@@ -1,0 +1,24 @@
+# Virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Model weights
+*.pt
+
+# Video files
+*.mp4
+*.avi
+
+# Generated outputs
+data/output/*
+results/*
+
+# Keep folder structure
+!data/output/.gitkeep
+!results/.gitkeep
+
+# IDE
+.vscode/
