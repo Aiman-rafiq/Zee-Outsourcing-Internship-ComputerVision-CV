@@ -1,0 +1,24 @@
+EXPERIMENT 2: YOLO11s MODEL
+
+Model: yolo11s.pt
+Confidence: 0.35
+Tracker: ByteTrack
+Device: CPU
+
+Manual IN: 18
+Manual OUT: 10
+Automated IN: 11
+Automated OUT: 10
+
+IN Error: 7
+OUT Error: 0
+Total Count Error: 7
+Error Percentage: 25%
+
+Processing Time: 168.22 seconds
+Processing FPS: 3.67
+
+Observation:
+YOLO11s produced an exact OUT count but underestimated IN events.
+Total count error remained unchanged compared to the baseline.
+Processing speed decreased significantly on CPU.

@@ -1,0 +1,20 @@
+BASELINE EXPERIMENT
+
+Model: YOLO11n
+Confidence: 0.35
+Tracker: ByteTrack
+Device: CPU
+
+Manual IN: 18
+Manual OUT: 10
+
+Automated IN: 16
+Automated OUT: 15
+
+IN Error: 2
+OUT Error: 5
+Total Count Error: 7
+Error Percentage: 25%
+
+Processing Time: 54.40 seconds
+Processing FPS: 11.34

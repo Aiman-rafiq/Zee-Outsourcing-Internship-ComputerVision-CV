@@ -1,0 +1,25 @@
+EXPERIMENT 1: CONFIDENCE THRESHOLD
+
+Model: YOLO11n
+Confidence: 0.50
+Tracker: ByteTrack
+Device: CPU
+
+Manual IN: 18
+Manual OUT: 10
+
+Automated IN: 15
+Automated OUT: 13
+
+IN Error: 3
+OUT Error: 3
+Total Count Error: 6
+Error Percentage: 21.43%
+
+Processing Time: 56.06 seconds
+Processing FPS: 11.01
+
+Observation:
+Increasing the confidence threshold improved
+overall counting accuracy but slightly reduced
+processing speed.

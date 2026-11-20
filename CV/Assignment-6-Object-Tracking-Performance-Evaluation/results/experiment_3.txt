@@ -1,0 +1,25 @@
+EXPERIMENT 3: BYTETRACK TUNING
+
+Model: yolo11n.pt
+Confidence: 0.35
+Tracker: ByteTrack
+track_buffer: 60
+Device: CPU
+
+Manual IN: 18
+Manual OUT: 10
+Automated IN: 16
+Automated OUT: 15
+
+IN Error: 2
+OUT Error: 5
+Total Count Error: 7
+Error Percentage: 25%
+
+Processing Time: 84.00 seconds
+Processing FPS: 7.34
+
+Observation:
+Increasing track_buffer from 30 to 60 did not improve
+the counting accuracy. Automated counts remained the
+same as the baseline, while processing speed decreased.

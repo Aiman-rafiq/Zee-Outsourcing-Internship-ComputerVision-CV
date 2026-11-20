@@ -1,0 +1,36 @@
+ASSIGNMENT 6: PERFORMANCE EVALUATION
+
+Video: people.mp4
+Resolution: 1920 x 1080
+Total Frames: 617
+Original FPS: 25
+Manual IN: 18
+Manual OUT: 10
+
+---------------------------------------------------------
+Configuration             Total Error   Error %   FPS
+---------------------------------------------------------
+Baseline                  7             25.00%    11.34
+Confidence 0.50           6             21.43%    11.01
+YOLO11s                   7             25.00%     3.67
+track_buffer 60           7             25.00%     7.34
+---------------------------------------------------------
+
+BEST CONFIGURATION:
+YOLO11n with confidence 0.50
+
+It achieved the lowest total count error of 6
+and an error percentage of 21.43%.
+
+CONCLUSION:
+Increasing confidence from 0.35 to 0.50 gave the
+best counting result among the tested configurations.
+
+Changing the model to YOLO11s did not improve total
+count accuracy and significantly reduced processing FPS.
+
+Increasing ByteTrack track_buffer to 60 did not
+change the automated counts.
+
+The confidence adjustment was the most effective
+change in these experiments.
